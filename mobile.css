@@ -1,0 +1,165 @@
+    @media screen and (min-width: 1025px) and (max-width: 1400px) {
+        html {
+            font-size: 50%;
+        }
+    }
+    
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        html {
+            font-size: 50%;
+        }
+        #about .about .about-content {
+            width: 100%;
+        }
+        #about .about .about-content img {
+            margin-left: 1rem;
+        }
+        #about .about .about-content .about-p {
+            margin-left: 4rem;
+        }
+    }
+    
+    @media screen and (min-width: 769px) and (max-width: 859px) {
+        html {
+            font-size: 50%;
+        }
+        #navbar ul li a {
+            padding: .2rem;
+        }
+    }
+    
+    @media(max-width: 768px) {
+        html {
+            font-size: 50%;
+        }
+        .col {
+            font-size: 2rem;
+        }
+        .thick {
+            font-size: 2.2rem;
+        }
+        /* Navbar */
+        #navbar ul li a {
+            padding: .3rem;
+            margin: 0 .1rem;
+        }
+        #navbar h4 {
+            margin-left: 2rem;
+        }
+        /* About */
+        #about .about .about-content {
+            display: block;
+            width: 100%;
+            position: relative;
+        }
+        #about .about .about-content .about-p {
+            margin-left: 2rem;
+            font-size: 2rem
+        }
+        #skills .skills-content {
+            margin-left: 20rem;
+        }
+        #experience .exp .exp-content .fi .exp-det {
+            margin-left: 50rem;
+        }
+    }
+    
+    @media(max-width: 680px) {
+        #navbar ul li a {
+            display: none
+        }
+    }
+    
+    @media(max-width: 656px) {
+        html {
+            font-size: 50%;
+        }
+        #navbar ul li a {
+            display: none;
+        }
+        #experience .exp .exp-content .fi .exp-det {
+            margin-left: 25rem;
+        }
+        #education .edu .edu-content .edu-det {
+            margin-left: 27rem;
+        }
+        .section-text {
+            font-size: 4rem;
+        }
+    }
+    
+    @media(max-width: 600px) {
+        html {
+            font-size: 50%;
+        }
+        #navbar ul li a {
+            display: none;
+        }
+        #experience .exp .exp-content .fi .exp-det {
+            margin-left: 20rem;
+        }
+        #education .edu .edu-content .edu-det {
+            margin-left: 22rem;
+        }
+        .col {
+            font-size: 1.7rem;
+        }
+        .thick {
+            font-size: 2.7rem;
+        }
+        .date {
+            margin-left: 0;
+        }
+    }
+    
+    @media(max-width: 550px) {
+        html {
+            font-size: 50%;
+        }
+        #navbar ul li a {
+            display: none;
+        }
+        #experience .exp .exp-content .fi .exp-det {
+            margin-left: 15rem;
+        }
+        #education .edu .edu-content .edu-det {
+            margin-left: 17rem;
+        }
+    }
+    
+    @media(max-width: 550px) {
+        #navbar .address {
+            margin-left: 3rem;
+        }
+        #experience .exp .exp-content .fi .exp-det {
+            margin-left: 5rem;
+        }
+        #education .edu .edu-content .edu-det {
+            margin-left: 7rem;
+        }
+        #about .about .about-content img {
+            margin-left: 3rem;
+        }
+        .container {
+            padding: 0 3rem;
+        }
+    }
+    
+    @media(max-width: 410px) {
+        html {
+            font-size: 50%;
+        }
+        #navbar .address {
+            margin-left: 2rem;
+        }
+        #experience .exp .exp-content .fi .exp-det {
+            margin-left: 2rem;
+        }
+        #education .edu .edu-content .edu-det {
+            margin-left: 4rem;
+        }
+        #about .about .about-content img {
+            width: 25rem;
+            height: 25rem;
+        }
+    }
